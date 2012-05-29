@@ -1,0 +1,15 @@
+name: KarmicQuest
+main: com.mitsugaru.KarmicQuest.KarmicQuest
+description: Flexible quest conversation plugin.
+version: 0.01
+author: Mitsugaru
+depend: [Vault]
+
+commands:
+  kq:
+    description: Root command
+
+permissions:
+  KarmicQuest.admin:
+    description: Administrate plugin
+    default: op
